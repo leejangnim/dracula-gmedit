@@ -1,4 +1,4 @@
 {
 	"parentTheme": "dark",
-	"stylesheets": ["dracula.css"]
+	"stylesheets": ["dracula.css","lee.css"]
 }
