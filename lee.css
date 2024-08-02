@@ -4,15 +4,18 @@
 
 /* 조정희 커스텀 */
 .treeview .dir > .header{
-	font-size: 15px;
+	font-size: 12px;
 	padding: 2px 4px;
+    font-family: Menlo, monospace;
 }
 .treeview .item{
-	font-size: 15px;
+	font-size: 12px;
 	padding: 4px 4px;
+    font-family: Menlo, monospace;
 }
 .treeview .item:hover span{
 	text-decoration: underline;
+    /* border: dashed 1px #fff; */
 }
 .treeview .dir .header, .treeview .item, .treeview .items{
 	border-width: 1px;
@@ -32,7 +35,7 @@
 	background-color: #44475a80;
 }
 #tree-td .system-buttons{
-	/* left: 0; */
+	left: 0;
 }
 
 #main #editor-td .bottom > .tabview > div{
@@ -60,10 +63,20 @@
 #main .ace_status-bar{
     width: 100%;
 }
+#project-name{
+    position: relative;
+    left:  36px;
+}
+.chrome-tabs{
+    height: calc(36px + 32px);
+}
 
 html[data-multiline-tabs] .chrome-tabs {
     height: calc(var(--chrome-tabs-height) + 8px + 32px);
     max-height: calc(100vh - 100px);
+}
+html[data-multiline-tabs] #splitter-td:before {
+    top: calc(4px + var(--chrome-tabs-height) + 32px);
 }
 
 .chrome-tabs .chrome-tabs-content{
@@ -72,3 +85,14 @@ html[data-multiline-tabs] .chrome-tabs {
 .chrome-tabs-hint{
     transform: translateY(32px);
 }
+#splitter-td:before {
+    content: "";
+    background: #282A36;
+    position: relative;
+    top: calc(32px + 32px);
+    height: calc(100% - 32px);
+    width: 100%;
+    display: block;
+    box-shadow: 0 -0.05em rgb(0 0 0 / 50%);
+}
+
