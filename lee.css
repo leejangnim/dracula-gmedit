@@ -13,15 +13,21 @@
 	padding: 4px 4px;
     font-family: Menlo, monospace;
 }
+.treeview .item:hover{
+	padding: 3.25px 4px;
+}
 .treeview .item:hover span{
-	text-decoration: underline;
-    /* border: dashed 1px #fff; */
+	/* text-decoration: underline; */
+    border: dashed 1px #fff;
 }
 .treeview .dir .header, .treeview .item, .treeview .items{
 	border-width: 1px;
 }
 .treeview .dir > .header:before, .treeview .item:before{
 	margin-right: 4px;
+}
+.treeview .item:hover .dir > .header:before, .treeview .item:hover:before{
+	margin-right: 3px;
 }
 .treeview .items {
     padding-left: 16px;
@@ -96,3 +102,11 @@ html[data-multiline-tabs] #splitter-td:before {
     box-shadow: 0 -0.05em rgb(0 0 0 / 50%);
 }
 
+#tabs.chrome-tabs.has-system-buttons{
+    padding: 4px 12px;
+}
+
+
+#main .ace-tm .ace_print-margin{
+    display: none;
+}
