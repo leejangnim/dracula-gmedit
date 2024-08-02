@@ -35,22 +35,40 @@
 	/* left: 0; */
 }
 
-#main #editor-td .bottom > .tabview{
+#main #editor-td .bottom > .tabview > div{
     /* position: absolute; */
     transition: width 0.2s ease-in;
 }
-#main #editor-td .bottom > .tabview:hover{
+#main #editor-td .bottom > .tabview > div:hover{
     /* position: absolute; */
+    z-index: 99;
     position: fixed;
     width: calc(100% - 64px * 2);
+    height: calc(100% - 64px);
     margin: 0 64px;
-    height: 100%;
     left: 0;
-    z-index: 99;
+    bottom: 0;
     border: solid 1px #fff;
     box-shadow: 0px 0px 64px 8px rgba(0,0,0,1);
+    background-color: #282A36;
+    /* padding-top: 32px; */
+}
+#main #editor-td .bottom > .tabview > div:hover .ace_container{
+    /* padding-top: 32px; */
 }
 
-#main #editor-td .bottom > div{
-    margin-left: auto;
+#main .ace_status-bar{
+    width: 100%;
+}
+
+html[data-multiline-tabs] .chrome-tabs {
+    height: calc(var(--chrome-tabs-height) + 8px + 32px);
+    max-height: calc(100vh - 100px);
+}
+
+.chrome-tabs .chrome-tabs-content{
+    top: 32px;
+}
+.chrome-tabs-hint{
+    transform: translateY(32px);
 }
