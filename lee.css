@@ -34,3 +34,23 @@
 #tree-td .system-buttons{
 	/* left: 0; */
 }
+
+#main #editor-td .bottom > .tabview{
+    /* position: absolute; */
+    transition: width 0.2s ease-in;
+}
+#main #editor-td .bottom > .tabview:hover{
+    /* position: absolute; */
+    position: fixed;
+    width: calc(100% - 64px * 2);
+    margin: 0 64px;
+    height: 100%;
+    left: 0;
+    z-index: 99;
+    border: solid 1px #fff;
+    box-shadow: 0px 0px 64px 8px rgba(0,0,0,1);
+}
+
+#main #editor-td .bottom > div{
+    margin-left: auto;
+}
