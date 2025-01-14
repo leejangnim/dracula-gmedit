@@ -1,17 +1,17 @@
-
-
-
-
 /* 조정희 커스텀 */
+.chrome-tabs * {
+    font-family: Consolas, "Courier New", monospace;
+}
+
 .treeview .dir > .header{
 	font-size: 12px;
 	padding: 2px 4px;
-    font-family: Menlo, monospace;
+    font-family: Consolas, "Courier New", monospace;
 }
 .treeview .item{
 	font-size: 12px;
 	padding: 4px 4px;
-    font-family: Menlo, monospace;
+    font-family: Consolas, "Courier New", monospace;
 }
 .treeview .item:hover{
 	padding: 3.25px 4px;
@@ -50,15 +50,15 @@
 }
 #main #editor-td .bottom > .tabview > div:hover{
     /* position: absolute; */
-    z-index: 99;
+    /* z-index: 99; */
     /* position: fixed;
     width: calc(100% - 64px * 2);
     height: calc(100% - 64px);
     margin: 0 64px;
     left: 0;
-    bottom: 0;
-    border: solid 1px #fff;
-    box-shadow: 0px 0px 64px 8px rgba(0,0,0,1);
+    bottom: 0; */
+    /* border: solid 1px #fff; */
+    /* box-shadow: 0px 0px 64px 8px rgba(0,0,0,1);
     background-color: #282A36; */
     /* padding-top: 32px; */
 }
@@ -74,31 +74,31 @@
     left:  36px;
 }
 .chrome-tabs{
-    height: calc(36px + 32px);
+    /* height: calc(36px + 32px); */
 }
 
 html[data-multiline-tabs] .chrome-tabs {
-    height: calc(var(--chrome-tabs-height) + 8px + 32px);
-    max-height: calc(100vh - 100px);
+    /* height: calc(var(--chrome-tabs-height) + 8px + 32px);
+    max-height: calc(100vh - 100px); */
 }
 html[data-multiline-tabs] #splitter-td:before {
-    top: calc(4px + var(--chrome-tabs-height) + 32px);
+    /* top: calc(4px + var(--chrome-tabs-height) + 32px); */
 }
 
 .chrome-tabs .chrome-tabs-content{
-    top: 32px;
+    /* top: 32px; */
 }
 .chrome-tabs-hint{
-    transform: translateY(-24px);
+    /* transform: translateY(-24px); */
 	background: #44475ac0;
 }
 #splitter-td:before {
     content: "";
     background: #282A36;
-    position: relative;
-    top: calc(32px + 32px);
-    height: calc(100% - 32px);
-    width: 100%;
+    /* position: relative; */
+    /* top: calc(32px + 32px); */
+    /* height: calc(100% - 32px); */
+    /* width: 100%; */
     display: block;
     box-shadow: 0 -0.05em rgb(0 0 0 / 50%);
 }
