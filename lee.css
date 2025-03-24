@@ -1,17 +1,17 @@
 /* 조정희 커스텀 */
 .chrome-tabs * {
-    font-family: Consolas, "Courier New", monospace;
+    font-family: Menlo, monospace;
 }
 
 .treeview .dir > .header{
 	font-size: 12px;
 	padding: 2px 4px;
-    font-family: Consolas, "Courier New", monospace;
+    font-family: Menlo, monospace;
 }
 .treeview .item{
 	font-size: 12px;
 	padding: 4px 4px;
-    font-family: Consolas, "Courier New", monospace;
+    font-family: Menlo, monospace;
 }
 .treeview .item:hover{
 	padding: 3.25px 4px;
