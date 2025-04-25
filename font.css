@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-ExtraLightltalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-Lightltalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-Medium|talic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'IBMPlexMono';
+    src: url('font/IBMPlexMono-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  
+*{
+    font-family: IBMPlexMono !important;
+}
